@@ -4,7 +4,7 @@ package DataStructure;
 import java.util.ArrayList;
 import java.util.List;
 
-class Node {
+public class Node {
     public int val;
     public List<Node> neighbors;
     public Node() {

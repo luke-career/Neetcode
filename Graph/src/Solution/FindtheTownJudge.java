@@ -1,3 +1,5 @@
+package src.Solution;
+
 public class FindtheTownJudge {
     public int findJudge(int n, int[][] trust) {
         int res = -1;

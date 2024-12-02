@@ -1,3 +1,5 @@
+package src.Solution;
+
 public class MaxAreaofIsland {
     public int maxAreaOfIsland(int[][] grid) {
         int row = grid.length;
