@@ -49,8 +49,14 @@ class Node {
 
             if (size == capacity) {
 
-                removeNode(right.prev);
-                map.remove(right.prev.key);
+                Node target = right.prev;
+                Node p = right.prev.prev;
+                p.next = right;
+                right.prev = p;
+                map.remove(target.key);
+                size--;
+//                removeNode(right.prev);
+//                map.remove(right.prev.key);
             }
 
             if (size < capacity) {
@@ -70,6 +76,7 @@ class Node {
         }
 
         private void removeNode(Node n) {
+            System.out.println("SIZe" + " " + size );
             Node p = n.prev;
             Node q = n.next;
             p.next = q;
