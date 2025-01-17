@@ -20,7 +20,9 @@ public class MajorityElement {
 }
 
 
-class Solution2 {
+
+
+class Solution3{
     public int majorityElement(int[] nums) {
         int count = 0;
         int majority = 0;
