@@ -12,8 +12,8 @@ public class ContiguousArray {
             if(nums[i] == 0){
                 pre--;
             }else{
-                pre++;
 
+                pre++;
             }
             if(map.containsKey(pre)){
                 max = Math.max(i - map.get(pre),max);
