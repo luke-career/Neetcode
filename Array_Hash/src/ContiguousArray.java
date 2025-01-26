@@ -12,6 +12,7 @@ public class ContiguousArray {
             if(nums[i] == 0){
                 pre--;
             }else{
+
                 pre++;
             }
             if(map.containsKey(pre)){
