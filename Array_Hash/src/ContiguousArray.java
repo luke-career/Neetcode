@@ -7,12 +7,10 @@ public class ContiguousArray {
 
         int pre = 0;
         int max = 0;
-
         for(int i = 0; i < nums.length; i++){
             if(nums[i] == 0){
                 pre--;
             }else{
-
                 pre++;
             }
             if(map.containsKey(pre)){
@@ -20,6 +18,7 @@ public class ContiguousArray {
             }else{
                 map.put(pre,i);
             }
+
         }
         return max;
     }
