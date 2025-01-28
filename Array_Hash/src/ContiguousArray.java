@@ -19,6 +19,8 @@ public class ContiguousArray {
                 map.put(pre,i);
             }
 
+
+
         }
         return max;
     }
