@@ -14,13 +14,11 @@ public class ContiguousArray {
                 pre++;
             }
             if(map.containsKey(pre)){
+
                 max = Math.max(i - map.get(pre),max);
             }else{
                 map.put(pre,i);
             }
-
-
-
         }
         return max;
     }
