@@ -17,6 +17,7 @@ public class ContiguousArray {
                 max = Math.max(i - map.get(pre),max);
             }else
                 map.put(pre,i);
+            
             }
         return max;
         }
