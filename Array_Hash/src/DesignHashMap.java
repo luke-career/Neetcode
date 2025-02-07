@@ -7,7 +7,6 @@ class MyHashMap {
     public MyHashMap() {
         this.map = new int[1000001];
         for(int i = 0; i < map.length; i++){
-
             map[i] = -1;
         }
     }
