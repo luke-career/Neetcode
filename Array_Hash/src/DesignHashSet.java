@@ -13,6 +13,7 @@ public class DesignHashSet {
         s[key] = false;
     }
 
+
     public boolean contains(int key) {
         return s[key] == true;
     }
