@@ -14,6 +14,7 @@ public class DesignHashSet {
     }
 
 
+
     public boolean contains(int key) {
         return s[key] == true;
     }
