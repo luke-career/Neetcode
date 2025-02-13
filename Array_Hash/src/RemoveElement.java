@@ -8,7 +8,6 @@ public class RemoveElement {
                 l++;
             }
             r++;
-
         }
         return l ;
     }
