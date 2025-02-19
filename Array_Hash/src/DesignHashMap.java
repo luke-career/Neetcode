@@ -13,7 +13,6 @@ class MyHashMap {
 
     public void put(int key, int value) {
         map[key] = value;
-
     }
 
     public int get(int key) {
