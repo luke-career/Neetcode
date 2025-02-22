@@ -22,6 +22,7 @@ class Solution {
             if(nums[r] != val){
                 nums[l] = nums[r];
                 l++;
+
             }
             r++;
         }
