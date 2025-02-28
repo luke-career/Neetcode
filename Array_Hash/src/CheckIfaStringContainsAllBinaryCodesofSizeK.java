@@ -6,10 +6,8 @@ public class CheckIfaStringContainsAllBinaryCodesofSizeK {
         for(int i = 0; i+k <= s.length();i++){
             String sb = s.substring(i,i+k);
             hs.add(sb);
-
         }
         if(hs.size() == 1 << k ){
-            
             return true;
 
         }
