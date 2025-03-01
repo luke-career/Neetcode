@@ -10,6 +10,7 @@ public class ConvertanArrayIntoa2DArrayWithConditions {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
 
+
         List<List<Integer>> res = new ArrayList<>();
         while (true) {
             List<Integer> list = new ArrayList<>();
