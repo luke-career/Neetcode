@@ -16,10 +16,13 @@ public class ConvertanArrayIntoa2DArrayWithConditions {
             List<Integer> list = new ArrayList<>();
             for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
                 int k = entry.getKey();
+
                 int v = entry.getValue();
                 if (v != 0) {
                     list.add(k);
+
                     map.put(k, v - 1);
+
                 }
             }
             if (list.isEmpty()) {
