@@ -10,7 +10,6 @@ public class CheckIfaStringContainsAllBinaryCodesofSizeK {
         }
         if(hs.size() == 1 << k ){
             return true;
-
         }
         return false;
     }
