@@ -8,6 +8,7 @@ public class ChampagneTower {
                     res[i+1][j+1] += (res[i][j] - 1) / 2;
 
                     res[i+1][j] += (res[i][j] - 1)/2;
+
                     res[i][j] = 1;
                 }
             }
