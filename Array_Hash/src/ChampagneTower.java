@@ -6,9 +6,7 @@ public class ChampagneTower {
             for(int j = 0;j <= i;j++){
                 if(res[i][j] > 1 ){
                     res[i+1][j+1] += (res[i][j] - 1) / 2;
-
                     res[i+1][j] += (res[i][j] - 1)/2;
-
                     res[i][j] = 1;
                 }
             }
