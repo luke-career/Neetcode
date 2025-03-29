@@ -10,6 +10,7 @@ public class ChampagneTower {
                     res[i+1][j] += (res[i][j] - 1)/2;
                     res[i][j] = 1;
                 }
+
             }
         }
         return  Math.min(1,res[query_row][query_glass]);
