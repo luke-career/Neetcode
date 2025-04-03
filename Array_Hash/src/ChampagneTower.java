@@ -10,6 +10,7 @@ public class ChampagneTower {
                     res[i][j] = 1;
 
 
+
                 }
 
             }
