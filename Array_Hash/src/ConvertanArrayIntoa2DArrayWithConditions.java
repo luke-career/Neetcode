@@ -23,6 +23,7 @@ public class ConvertanArrayIntoa2DArrayWithConditions {
                     list.add(k);
                     map.put(k, v - 1);
 
+
                 }
             }
             if (list.isEmpty()) {
