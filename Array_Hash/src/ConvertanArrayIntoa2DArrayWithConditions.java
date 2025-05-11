@@ -30,6 +30,7 @@ public class ConvertanArrayIntoa2DArrayWithConditions {
                 break;
             }
             res.add(list);
+
             
         }
         return res;
