@@ -25,8 +25,6 @@ public class ConvertanArrayIntoa2DArrayWithConditions {
                 }
             }
             if (list.isEmpty()) {
-
-
                 break;
             }
             res.add(list);
