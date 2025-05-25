@@ -22,12 +22,9 @@ public class ConvertanArrayIntoa2DArrayWithConditions {
                 if (v != 0) {
                     list.add(k);
                     map.put(k, v - 1);
-                    
-
                 }
             }
             if (list.isEmpty()) {
-
                 break;
             }
             res.add(list);
