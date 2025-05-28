@@ -13,12 +13,12 @@ public class BrickWall {
                 sum += list.get(i);
                 map.put(sum,map.getOrDefault(sum,0) + 1);
             }
+
         }
         int max = 0;
         for(Map.Entry<Integer,Integer> entry : map.entrySet()){
             max = Math.max(entry.getValue(),max);
         }
-
         return wall.size() - max;
     }
 }
