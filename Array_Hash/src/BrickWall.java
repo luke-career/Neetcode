@@ -20,5 +20,6 @@ public class BrickWall {
         }
         return wall.size() - max;
 
+
     }
 }
