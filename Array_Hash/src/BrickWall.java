@@ -19,7 +19,7 @@ public class BrickWall {
             max = Math.max(entry.getValue(),max);
         }
 
-        return wall.size() - max;
+        rturn wall.size() - max;
 
 
     }
