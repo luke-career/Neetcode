@@ -17,7 +17,6 @@ public class BrickWall {
         int max = 0;
         for(Map.Entry<Integer,Integer> entry : map.entrySet()){
             max = Math.max(entry.getValue(),max);
-
         }
 
         return wall.size() - max;
